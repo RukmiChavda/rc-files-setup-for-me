@@ -3,19 +3,20 @@
 "                         VVV   VVV   III  MM MM 
 "                          VVV VVV    III  M M M 
 "                           VVVVV    IIIII M   M 
-" 
+"
 " ========================== VIM Configuration File ============================
 "  Author    : RUKMI CHAVDA
 "  Purpose   : Personal Vim configuration
 "  Last Edit : 04/27/2025
 " ==============================================================================
+
 " Basic settings
 set nocompatible          " Use Vim features, not old Vi
 filetype on               " Detect file types
 filetype plugin on        " Enable file-type-specific plugins
 filetype indent on        " Enable file-type-specific indenting
 syntax on                 " Syntax highlighting
-set history=1000 		  " History default number is 20
+set history=1000 		      " History default number is 20
 
 " Appearance
 set number                " Show line numbers
@@ -64,12 +65,5 @@ set backup
 set swapfile
 set undofile              " Persistent undo
 
-" Plugins (optional if you want)
-" call plug#begin('~/.vim/plugged')
-" Plug 'vim-airline/vim-airline'
-" Plug 'preservim/nerdtree'
-" Plug 'junegunn/fzf.vim'
-" call plug#end()
-"
-"
+For backup, the directories should be created
 " mkdir -p ~/.vim/backup ~/.vim/swap ~/.vim/undo 
